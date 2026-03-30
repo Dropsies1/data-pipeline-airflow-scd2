@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Variables de entorno 
+.env
+
+# Archivos autogenerados de Airflow
+airflow.db
+airflow.cfg
+logs/
+simple_auth_manager_passwords.json.generated
+webserver_config.py
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
