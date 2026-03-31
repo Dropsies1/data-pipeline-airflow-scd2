@@ -78,7 +78,7 @@ export AIRFLOW_HOME=$(pwd)
 export AIRFLOW__CORE__DAGS_FOLDER=$(pwd)/dags
 airflow standalone
 ```
-
+![Captura de Airflow exitosa](NOMBRE_DE_TU_IMAGEN.png)
 1. Abre tu navegador y accede a `http://localhost:8080`.
     
 2. Inicia sesión con el usuario `admin` (la contraseña se genera en la terminal o puedes resetearla manualmente).
