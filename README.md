@@ -78,9 +78,10 @@ export AIRFLOW_HOME=$(pwd)
 export AIRFLOW__CORE__DAGS_FOLDER=$(pwd)/dags
 airflow standalone
 ```
-![Captura de Airflow exitosa](Airflow.png)
 1. Abre tu navegador y accede a `http://localhost:8080`.
     
 2. Inicia sesión con el usuario `admin` (la contraseña se genera en la terminal o puedes resetearla manualmente).
     
 3. Busca el DAG `daily_data_pipeline_automation`, desactiva la pausa y presiona **Trigger DAG** para iniciar la ejecución automatizada.
+
+![Captura de Airflow exitosa](Airflow.png)
